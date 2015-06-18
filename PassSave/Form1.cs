@@ -107,15 +107,15 @@ namespace PassSave
 
                         xml.WriteStartElement("username");
                         xml.WriteCData(pwd.Username);
-                        xml.WriteEndElement(); //username
+                        xml.WriteEndElement(); 
 
                         xml.WriteStartElement("password");
                         xml.WriteCData(pwd.Password);
-                        xml.WriteEndElement(); //username
+                        xml.WriteEndElement(); 
 
                         xml.WriteStartElement("website");
                         xml.WriteCData(pwd.Website);
-                        xml.WriteEndElement(); //username
+                        xml.WriteEndElement(); 
 
                         xml.WriteEndElement(); //dat
                     }
